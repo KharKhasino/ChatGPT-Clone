@@ -19,8 +19,6 @@ app.use(express.json());
 app.get("/", async (req, res) => {
   res.status(200).send({
     message: "Hello There!",
-    apikey:`${process.env.OPENAI_API_Key}`,
-
   });
 
 });

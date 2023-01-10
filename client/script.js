@@ -3,7 +3,6 @@ import user from "./assets/user.svg";
 
 const form = document.querySelector("form");
 const chatContainer = document.querySelector("#chat_container");
-const openAI_API_Key = "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";
 let loadInterval;
 
 function loader(element) {
